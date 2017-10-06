@@ -155,10 +155,23 @@ void anak_ayam(){
 
 void angka_segitiga(){
 	system("cls");
-	
+	int j, k, angka=1;
 	printf("Masukan Jumlah Baris : ");
 	scanf("%d", &baris);
 	
+	for(i=1;i<=baris;i++)
+    {
+        for(j=baris;j>=i;j--)
+        { printf(" ");
+        
+        }
+        for(k=1;k<=i+(i-1);k++)
+        {
+        	
+            printf("%d ", angka++);
+        }
+    printf("\n");
+    }
 	
 	
 	system("PAUSE");
